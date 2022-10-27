@@ -1,0 +1,221 @@
+header img {
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 80px;
+}
+header span {
+    font-size: 25px;
+    color: black;
+}
+#first {
+    background-color: #f70;
+    color: #ffffff;
+    height: 40px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 13px;
+    padding-left: 15px;
+    font-size: 17px;
+}
+#first a {
+    color: #ffffff;
+}
+#second {
+    /* border: thick solid red; */
+    margin-top: 30px;
+    font-size: x-large;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 50px;
+}
+#second ul h1 {
+    color: black;
+    font-size: 40px;
+}
+#second ul h6 {
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+}
+#second ul img {
+    width: 100%;
+    margin-top: -41px;
+    font-weight: lighter;
+    
+}
+.flex-container {
+    /* border: thick solid blue; */
+    background-color:  rgb(66,133,244);
+    width: 104%;
+    margin: 70px auto;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: flex-end;
+    margin-left: -40px;
+    /* justify-content: works for horizontal axis - while align-content works for vertical axis I; */
+    /* flex-flow: is a combination of flex-direction and flex-wrap; */
+    gap: 30px;
+    padding: 10px;
+    margin-top: -65px;
+}
+
+span {
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+#flex-item {
+    /* border: medium solid red; */
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 8px;
+    width: 17%;
+    margin-top: 100px;
+    min-height: 70vh;
+    /* display: inline-block; */
+    padding: 15px;
+    color: black;
+}
+#flex-item:nth-of-type(2) {
+    background-color: white;
+    padding: 15px;
+}
+#flex-item:nth-of-type(3) {
+    background-color: white;
+    padding: 15px;
+}
+#flex-item:nth-of-type(4) {
+    background-color: white;
+    padding: 15px;
+}
+#flex-item:nth-of-type(5) {
+    background-color: white;
+    padding: 15px;
+    margin-top: -10px;
+    margin-right: 37px;
+}
+#flex-item:nth-of-type(6) {
+    background-color: white;
+    padding: 15px;
+    margin-top: -10px;
+    align-items: 20px;
+}
+h3 {
+    color: black;
+    background-color: #f2f2f2;
+    padding-left: 30px;
+    height: 60px;
+    padding-top: 30px;
+    margin-top: 20px;
+    margin: 0px;
+    width: 105%;
+    margin-left: -30px;
+    margin-right: -40px;
+}
+.justin ul:nth-of-type(2) {
+    color: black;
+}
+.justin {
+    display: flex;
+    /* border: thin solid black; */
+    background-color: #f2f2f2;
+    margin-bottom: 50px;
+    margin-top: 35px;
+    box-shadow: 2px 2px 9px black;
+}
+.krista ul:nth-of-type(2) {
+    color: black;
+}
+.krista {
+    display: flex;
+    /* border: thin solid black; */
+    background-color: #f2f2f2;
+    margin-bottom: 50px;
+    margin-top: 35px;
+    box-shadow: 2px 2px 9px black;
+}
+.ashish ul:nth-of-type(2) {
+    color: black;
+}
+.ashish {
+    display: flex;
+    /* border: thin solid black; */
+    background-color: #f2f2f2;
+    margin-bottom: 50px;
+    margin-top: 35px;
+    box-shadow: 2px 2px 9px black;
+}
+h2 {
+    color: black;
+    font-size: 30px;
+}
+h5 {
+    color: black;
+    font-size: large;
+    font-weight: lighter;
+}
+.card ul {
+    color: black;
+    border: mediumk solid red;
+    background-color: #f2f2f2 ;
+    margin: 10px;
+    min-height: 25vh;
+    width: 25%;
+    box-shadow: 2px 2px 9px black;
+    padding: 10px;
+    margin-right: 20px;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 18px 12px 0;
+    /* border: thin solid #f2f2f2; */
+    margin-bottom: 35px;
+}
+.card ul img {
+    background-color: #f2f2f2;
+}
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: thin solid black;
+    box-shadow: 0 0 10px;
+    margin-left: -30px;
+    margin-right: -10px;
+    height: 150px;
+    padding: 20px;
+    background-color: #f2f2f2;
+
+}
+.logos ul {
+    color: black;
+}
+footer {
+    color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: -30px;
+    margin-right: -10px;
+    box-shadow: 0 0 5px;
+    padding: 10px 0;
+    margin-top: 20px;
+    margin: 0px;
+    width: 103%;
+    margin-left: -30px;
+    margin-right: -40px;
+}
+strong {
+
+}
+h1 {
+color: black;
+margin-top: -25px;
+
+}
